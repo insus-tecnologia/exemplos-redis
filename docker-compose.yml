@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+  db:
+    image: 'mysql:5.7'
+    restart: always
+    container_name: exemplos-redis-mysql
+    volumes:
+      - './mysql:/var/lib/mysql'
+    ports:
+      - '3306:3306'
+    expose: 
+      - "3306"
+    environment:
+      - MYSQL_DATABASE=root
+      - MYSQL_ROOT_PASSWORD=root
