@@ -20,7 +20,7 @@ services:
     container_name: exemplos-redis-redis
     volumes:
       - './redis:/data'
-    command: redis-server --save 60 1 --loglevel warning --requirepass RedisInsus!
+    command: redis-server --save 60 1 --loglevel warning #--requirepass RedisInsus!
     ports:
       - "6379:6379"
     expose:
