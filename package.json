@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/insus-tecnologia/exemplos-redis/issues"
   },
-  "homepage": "https://github.com/insus-tecnologia/exemplos-redis#readme"
+  "homepage": "https://github.com/insus-tecnologia/exemplos-redis#readme",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "promise-redis": "0.0.5"
+  }
 }

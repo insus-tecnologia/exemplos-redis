@@ -6,3 +6,8 @@ Este repositório tem como objetivo levantar algumas possibilidades de implement
 - PUB/SUB
 - Classificação de dados
 - Limitação de taxas
+
+## Tecnologias utilizadas
+- NodeJS
+- Redis (pkg promise-redis)
+- MySQL (pkg mysql2)
