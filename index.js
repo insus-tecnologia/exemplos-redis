@@ -2,11 +2,7 @@ import { createClient } from 'redis'
 
 (async () => {
     //const mysql = require('mysql2')
-    // const redisClient = createClient({
-    //     host: 'localhost:6379',
-    //     no_ready_check: true,
-    //     auth_pass: 'RedisInsus!',   
-    // })
+    
     const redisClient = createClient();
     redisClient.on('error', (err) => console.log('Redis Client Error', err))
 
